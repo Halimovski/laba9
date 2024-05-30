@@ -1,7 +1,7 @@
 import math
 import random
 
-# Нахождение наибольшей общей префиксной подстроки
+# Нахождение наибольшей общей префиксной подстроки.
 # O(nlogm), n - кол-во строк, m - длина самой длинной
 def longestCommonPrefix(strs):
     if not strs:
