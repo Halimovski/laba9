@@ -21,6 +21,6 @@ jobs:
 
     - name: Run tests
       run: |
-        unittest laba9/tests5.py
-        pytest laba9/tests6.py
-        laba9/tests7.py
+        tests5.py
+        pytest tests6.py
+        tests7.py
