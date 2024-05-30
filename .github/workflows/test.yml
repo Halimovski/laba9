@@ -23,4 +23,4 @@ jobs:
       run: |
         python -m unittest tests5.py
         pytest tests6.py
-        python -m unittest discover -s tests7.py
+        python -m unittest tests7.py
