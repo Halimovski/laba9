@@ -21,6 +21,6 @@ jobs:
 
     - name: Run tests
       run: |
-        python -m unittest discover -s ./tests5.py
+        python -m unittest discover -s tests5.py
         pytest tests6.py
-        python -m unittest discover -s ./tests7.py
+        python -m unittest discover -s tests7.py
