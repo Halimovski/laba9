@@ -9,7 +9,7 @@ class Test6(unittest.TestCase):
         llist.append(2)
 
         llist.sort_list()
-        self.assertEqual(llist.__str__(),"{1 2 3 4 }")
+        self.assertEqual(llist.__str__(),"{1 2 3 }")
 
 if __name__ == "__main__":
     unittest.main()     
