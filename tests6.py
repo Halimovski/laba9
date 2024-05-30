@@ -1,7 +1,7 @@
-import laba6_1
+import laba6
 
 def test_list():
-    llist = laba6_1.LinkedList()
+    llist = laba6.LinkedList()
     llist.append(3)
     llist.append(1)
     llist.append(2)
