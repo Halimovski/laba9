@@ -62,7 +62,7 @@ if __name__ == "__main__":
             print(f"Количество различных способов подняться на {step} ступеней: {count}")
         case "2":
             string = str(input())
-            res = find_max_substring(string)
+            res = max_substring(string)
             print(f"Максимальная кратность подстроки в запросе '{string}': {res}")
         case "3":
             n = int(input("Введите n: "))

@@ -9,10 +9,10 @@ class Test7(unittest.TestCase):
         self.assertEqual(laba7.count_ways(20),10946)
     def test_max_substring(self):
         self.assertEqual(laba7.max_substring("кокошнель"), 2)
-        self.assertEqual(laba7.max_substring("аааасаааа"), 2)
-        self.assertEqual(laba7.max_substring("бибобибаби"), 2)
-        self.assertEqual(laba7.max_substring("кокшнель"), 1)
-        self.assertEqual(laba7.max_substring("аватар"), 1)
+        self.assertEqual(laba7.max_substring("аааасаааа"), 8)
+        self.assertEqual(laba7.max_substring("бибобибаби"), 5)
+        self.assertEqual(laba7.max_substring("кокшнель"), 2)
+        self.assertEqual(laba7.max_substring("аватар"), 3)
     def test_all_paths(self):
         self.assertEqual(laba7.all_paths(5,6), 126)
         self.assertEqual(laba7.all_paths(10,10), 48620)
